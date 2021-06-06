@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonSendNotification = findViewById(R.id.button_send_notification)
         buttonSendNotification.setOnClickListener{
-
+            this.showNotification("1234", "Android", "Android Notification by Kotlin")
         }
     }
 }
